@@ -1,8 +1,10 @@
 # vue-cli-issue-scss-import-scss
 
-run `yarn run serve` you can see the *.scss is correct import.
+run `yarn run serve` you can see the `*.scss` is correct import.
 
-run `yarn run serve-noconfig` you can see the *.scss is incorrect import.
+use `@import url(...)` and `importLoaders: 3`.
+
+use `@import '...'` without more config.
 
 ## Project setup
 
